@@ -1,0 +1,22 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables (Sabse zaroori - isme API keys hoti hain)
+.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Local Database (Production mein ye push nahi karna chahiye)
+*.sqlite3
+
+# Media & Static folders (Jab users photos upload karte hain)
+/media/
+/staticfiles/
