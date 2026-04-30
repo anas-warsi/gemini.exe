@@ -53,7 +53,7 @@ export default function Home() {
 
     try {
       const res = await axios.post(
-        "https://9150-117-99-136-85.ngrok-free.app/api/analyze/",
+        "https://cvanalyzer.pythonanywhere.com/api/analyze/",
         formData
       );
 
